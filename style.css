@@ -1,0 +1,36 @@
+body{
+	height: 100vh;
+	overflow: hidden;
+	color: #fff;
+	background: url(bg.jpg);
+	background-size: cover;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Audiowide', cursive;
+	font-size: 3em;
+}
+
+#clock{
+	text-shadow: 0 0 5px #238a93, 0 0 10px #00e9ff, 0 0 20px #00e9ff;
+}
+
+@media only screen and (max-width: 525px){
+	body{
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	body{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 340px){
+	body{
+		font-size: 1.5em;
+	}
+}
